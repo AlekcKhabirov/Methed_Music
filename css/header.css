@@ -1,0 +1,25 @@
+.header{
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+.header__container{
+    max-width: 1240px;
+    padding: 0 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    margin-right: 94px;
+}
+.header__search{
+    flex-grow: 1;/* позиция*/
+    margin-right: auto;
+}
+.header__favorite-btn{
+    color: #fff;
+    line-height: none;/* спрятать полоску*/
+}
+.header__favorite-btn:hover{/*наведение */
+    color: tomato;
+    }
